@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2023-05-27 07:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-03-20 19:20+0000\n"
+"Last-Translator: \"A. Bento\" <kyweehz@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.fyralabs.com/projects/"
 "tauOS/accelerator/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #: data/com.fyralabs.Accelerator.desktop.in:3
 msgid "Accelerator"
@@ -53,7 +53,7 @@ msgstr "Lembrar ou não o tamanho da janela"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:28
 msgid "Font family and size"
-msgstr "Família de fontes e tamanhos"
+msgstr "Família e tamanho da fonte"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:32
 msgid "Whether the window should inherit terminal theme's colors"
@@ -101,13 +101,13 @@ msgstr "Se ativado, os terminais rolarão por pixels ao invés de linhas"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:72
 msgid "If enabled, terminals will render sixel escape sequences"
-msgstr "Se ativado, os terminais rolarão por píxeis ao invés de linhas"
+msgstr "Se ativado, os terminais renderizarão sequências de escape sixel"
 
 #. 0 = Fixed size, 1 = Unlimited, 2 = Disabled
 #: data/com.fyralabs.Accelerator.gschema.xml:77
 #: src/gtk/preferences-window.ui:373
 msgid "Scrollback mode"
-msgstr "Linhas de Rolagem"
+msgstr "Modo de rolagem"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:81
 msgid "Number of lines stored in scrollback"
@@ -403,7 +403,7 @@ msgstr "Teclado"
 
 #: src/gtk/shortcut-editor.ui:10
 msgid "Shortcuts"
-msgstr "Mostrar Atalhos"
+msgstr "Atalhos"
 
 #: src/gtk/preferences-window.ui:11
 msgid "General"
@@ -576,7 +576,7 @@ msgstr "Use Ctrl+C/Ctrl+V para copiar/colar."
 
 #: src/gtk/preferences-window.ui:281
 msgid "Cursor Shape"
-msgstr "Formato do cursor"
+msgstr "Formato do Cursor"
 
 #: src/gtk/preferences-window.ui:285
 msgid "Block"
@@ -781,7 +781,7 @@ msgstr "Preferências"
 #: src/widgets/HeaderBar.vala:32 src/widgets/ShortcutEditor.vala:169
 #: src/widgets/TerminalTab.vala:132
 msgid "Keyboard Shortcuts"
-msgstr "Mostrar Atalhos"
+msgstr "Atalhos do Teclado"
 
 #: src/widgets/HeaderBar.vala:33 src/widgets/TerminalTab.vala:133
 msgid "About"
@@ -830,7 +830,7 @@ msgstr "Colar"
 
 #: src/widgets/ShortcutEditor.vala:167
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Buscar"
 
 #: src/widgets/ShortcutEditor.vala:170
 msgid "Zoom In"
