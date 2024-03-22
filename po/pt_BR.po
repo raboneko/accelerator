@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2024-03-20 19:20+0000\n"
+"PO-Revision-Date: 2024-03-22 13:20+0000\n"
 "Last-Translator: \"A. Bento\" <kyweehz@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.fyralabs.com/projects/"
 "tauOS/accelerator/pt_BR/>\n"
@@ -167,7 +167,7 @@ msgstr "Se deve ou não piscar o cursor"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:130
 msgid "If enabled, ctrl+c and ctrl+v will work for copy/paste"
-msgstr "Se ativado, Ctrl+C e Ctrl+V funcionarão para copiar/colar"
+msgstr "Se ativado, ctrl+c e ctrl+v funcionarão para copiar/colar"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:134
 msgid ""
@@ -216,7 +216,7 @@ msgstr "Se a pesquisa deve ser realizada usando expressões regulares"
 
 #: src/gtk/search-toolbar.ui:20
 msgid "Find"
-msgstr "Pesquisar"
+msgstr "Encontrar"
 
 #: src/gtk/search-toolbar.ui:42
 msgid "Previous result"
@@ -232,15 +232,15 @@ msgstr "A busca é cíclica"
 
 #: src/gtk/search-toolbar.ui:96
 msgid "Match is case sensitive"
-msgstr "Se a pesquisa deve diferenciar maiúsculas de minúsculas"
+msgstr "Pesquisar diferenciando maiúsculas e minúsculas"
 
 #: src/gtk/search-toolbar.ui:101
 msgid "Match entire words only"
-msgstr "Mostrar apenas palavras inteiras"
+msgstr "Pesquisar apenas palavras inteiras"
 
 #: src/gtk/search-toolbar.ui:106
 msgid "Match using regular expression"
-msgstr "Se a pesquisa deve ser realizada usando expressões regulares"
+msgstr "Pesquisar usando expressões regulares"
 
 #: src/gtk/help-overlay.ui:10
 msgctxt "shortcut window"
