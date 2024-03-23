@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2024-03-22 13:20+0000\n"
+"PO-Revision-Date: 2024-03-23 18:20+0000\n"
 "Last-Translator: \"A. Bento\" <kyweehz@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.fyralabs.com/projects/"
 "tauOS/accelerator/pt_BR/>\n"
@@ -265,7 +265,7 @@ msgstr "Fechar aba"
 #: src/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Switch headbar mode"
-msgstr "Alternar para modo com barra de cabeçalho"
+msgstr "Alternar modo da barra de cabeçalho"
 
 #: src/gtk/help-overlay.ui:37
 msgctxt "shortcut window"
@@ -280,7 +280,7 @@ msgstr "Terminal"
 #: src/gtk/help-overlay.ui:48
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Buscar"
 
 #: src/gtk/help-overlay.ui:54
 msgctxt "shortcut window"
@@ -379,7 +379,7 @@ msgstr "Mostrar Atalhos"
 
 #: src/gtk/shortcut-dialog.ui:6
 msgid "Edit Shortcut"
-msgstr "Definir Atalhos"
+msgstr "Editar Atalho"
 
 #: src/gtk/shortcut-dialog.ui:21
 msgid "Cancel"
@@ -395,7 +395,7 @@ msgstr "Este atalho já está em uso"
 
 #: src/gtk/shortcut-dialog.ui:81
 msgid "Press Escape to cancel or Backspace to disable shortcut"
-msgstr "Aperte Esc para cancelar ou Backspace para desabilitar o atalho"
+msgstr "Aperte Escape para cancelar ou Backspace para desabilitar o atalho"
 
 #: src/gtk/shortcut-editor.ui:6
 msgid "Keyboard"
@@ -431,7 +431,7 @@ msgstr "Integração do tema"
 
 #: src/gtk/preferences-window.ui:43
 msgid "Style window with terminal theme colors."
-msgstr "Janela com estilo de cores do tema do terminal."
+msgstr "Estilizar janela com as cores do tema do terminal."
 
 #: src/gtk/preferences-window.ui:53
 msgid "Style Preference"
@@ -479,15 +479,15 @@ msgstr "Aba Única Invisível"
 
 #: src/gtk/preferences-window.ui:102
 msgid "Blend single tab with header bar."
-msgstr "Mesclar aba única com a barra superior."
+msgstr "Mesclar aba única com a barra de cabeçalho."
 
 #: src/gtk/preferences-window.ui:117
 msgid "Header Bar"
-msgstr "Barra Superior"
+msgstr "Barra de Cabeçalho"
 
 #: src/gtk/preferences-window.ui:121
 msgid "Show Header Bar"
-msgstr "Mostrar Barra Superior"
+msgstr "Mostrar Barra de Cabeçalho"
 
 #: src/gtk/preferences-window.ui:132
 msgid "Show Menu Button"
@@ -495,7 +495,7 @@ msgstr "Botão Mostrar Menu"
 
 #: src/gtk/preferences-window.ui:143
 msgid "Drag Area"
-msgstr "Área de Arrasto"
+msgstr "Área de Arrastar"
 
 #: src/gtk/preferences-window.ui:144
 msgid "Enable to reserve some space on the left side to drag the window."
@@ -504,7 +504,7 @@ msgstr ""
 
 #: src/gtk/preferences-window.ui:156
 msgid "Draw Line Under Header Bar"
-msgstr "Desenhar Linha Abaixo da Barra do Cabeçalho"
+msgstr "Desenhar Linha Abaixo da Barra de Cabeçalho"
 
 #: src/gtk/preferences-window.ui:157
 msgid ""
@@ -524,11 +524,12 @@ msgstr "Mostrar Controles Flutuantes"
 
 #: src/gtk/preferences-window.ui:171
 msgid "Show floating controls when header bar is hidden."
-msgstr "Mostrar controles flutuantes quando a barra superior estiver oculta."
+msgstr ""
+"Mostrar controles flutuantes quando a barra de cabeçalho estiver oculta."
 
 #: src/gtk/preferences-window.ui:183
 msgid "Floating Controls Hover Area"
-msgstr "Área de Controles Flutuantes"
+msgstr "Área de Foco dos Controles Flutuantes"
 
 #: src/gtk/preferences-window.ui:184
 msgid ""
@@ -568,11 +569,11 @@ msgstr "Altura"
 
 #: src/gtk/preferences-window.ui:265
 msgid "Easy Copy &amp; Paste"
-msgstr "Copiar e Colar Simples"
+msgstr "Copiar &amp; Colar Fácil"
 
 #: src/gtk/preferences-window.ui:266
 msgid "Use ctrl+c/ctrl+v for copy/paste."
-msgstr "Use Ctrl+C/Ctrl+V para copiar/colar."
+msgstr "Use ctrl+c/ctrl+v para copiar/colar."
 
 #: src/gtk/preferences-window.ui:281
 msgid "Cursor Shape"
@@ -592,7 +593,7 @@ msgstr "Sublinhado"
 
 #: src/gtk/preferences-window.ui:295
 msgid "Cursor Blinking"
-msgstr "Pisque do Cursor"
+msgstr "Piscar do Cursor"
 
 #: src/gtk/preferences-window.ui:296
 msgid "Whether or not the cursor should blink."
@@ -656,7 +657,7 @@ msgstr "Comando"
 
 #: src/gtk/preferences-window.ui:409
 msgid "Run Command as Login Shell"
-msgstr "Executar comando como shell de login"
+msgstr "Executar Comando como Shell de Login"
 
 #: src/gtk/preferences-window.ui:420
 msgid "Use Custom Command"
@@ -711,7 +712,7 @@ msgstr "Avançado"
 
 #: src/gtk/preferences-window.ui:543
 msgid "Experimental"
-msgstr "Experimentos"
+msgstr "Experimental"
 
 #: src/gtk/preferences-window.ui:544
 msgid ""
@@ -729,7 +730,7 @@ msgstr "Suporte a Sixel"
 
 #: src/gtk/preferences-window.ui:549
 msgid "Render sixel escape sequences."
-msgstr "Renderizar escapes de Sixel."
+msgstr "Renderizar sequências de escape Sixel."
 
 #: src/gtk/preferences-window.ui:561
 msgid "Danger Zone"
@@ -737,7 +738,7 @@ msgstr "Zona de Perigo"
 
 #: src/gtk/preferences-window.ui:564
 msgid "Reset Preferences"
-msgstr "Redefinir preferências"
+msgstr "Redefinir Preferências"
 
 #: src/gtk/preferences-window.ui:565
 msgid ""
@@ -765,7 +766,7 @@ msgid ""
 "means there's currently no way to copy text in %s."
 msgstr ""
 "%s usa um port inicial de Gtk 4 do VTE como widget de terminal. Embora muito "
-"progresso tenha sido feito neste port, a cópia ainda não foi implementada."
+"progresso tenha sido feito neste port, a cópia ainda não foi implementada. "
 "Isso significa que atualmente não há como copiar texto em %s."
 
 #: src/widgets/HeaderBar.vala:30 src/widgets/ShortcutEditor.vala:168
@@ -814,7 +815,7 @@ msgstr "Nova Janela"
 
 #: src/widgets/ShortcutEditor.vala:162
 msgid "Toggle Header Bar"
-msgstr "Mostrar Barra Superior"
+msgstr "Exibir ou Ocultar a Barra de Cabeçalho"
 
 #: src/widgets/ShortcutEditor.vala:163 src/widgets/TerminalTab.vala:121
 msgid "New Tab"
