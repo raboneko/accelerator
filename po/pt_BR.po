@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2024-03-23 18:20+0000\n"
+"PO-Revision-Date: 2024-03-24 23:20+0000\n"
 "Last-Translator: \"A. Bento\" <kyweehz@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.fyralabs.com/projects/"
 "tauOS/accelerator/pt_BR/>\n"
@@ -835,15 +835,15 @@ msgstr "Buscar"
 
 #: src/widgets/ShortcutEditor.vala:170
 msgid "Zoom In"
-msgstr "Ampliar"
+msgstr "Ampliar Zoom"
 
 #: src/widgets/ShortcutEditor.vala:171
 msgid "Zoom Out"
-msgstr "Reduzir"
+msgstr "Reduzir Zoom"
 
 #: src/widgets/ShortcutEditor.vala:172
 msgid "Reset Zoom"
-msgstr "Planificar"
+msgstr "Redefinir Zoom"
 
 #: src/widgets/ShortcutEditor.vala:173
 msgid "Close Tab"
@@ -876,7 +876,7 @@ msgstr "Fonte do Terminal"
 
 #: src/CommandLine.vala:47
 msgid "Show app version"
-msgstr "Mostrar versão do app"
+msgstr "Mostrar versão do aplicativo"
 
 #: src/CommandLine.vala:56
 msgid "Set current working directory"
