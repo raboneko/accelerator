@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2023-12-26 04:14+0000\n"
+"PO-Revision-Date: 2024-03-27 05:20+0000\n"
 "Last-Translator: albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://weblate.fyralabs.com/projects/tauOS/"
 "accelerator/ar/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #: data/com.fyralabs.Accelerator.desktop.in:3
 msgid "Accelerator"
@@ -230,27 +230,27 @@ msgstr ""
 #: src/gtk/help-overlay.ui:10
 msgctxt "shortcut window"
 msgid "Window"
-msgstr ""
+msgstr "نافذة"
 
 #: src/gtk/help-overlay.ui:13
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "نافذة جديدة"
 
 #: src/gtk/help-overlay.ui:19
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr ""
+msgstr "تبويب جديد"
 
 #: src/gtk/help-overlay.ui:25
 msgctxt "shortcut window"
 msgid "Close tab"
-msgstr ""
+msgstr "أغلق التبويب"
 
 #: src/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Switch headbar mode"
-msgstr ""
+msgstr "الوضع الرأسي"
 
 #: src/gtk/help-overlay.ui:37
 msgctxt "shortcut window"
@@ -260,37 +260,37 @@ msgstr ""
 #: src/gtk/help-overlay.ui:45
 msgctxt "shortcut window"
 msgid "Terminal"
-msgstr ""
+msgstr "الطرفية"
 
 #: src/gtk/help-overlay.ui:48
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "ابحث"
 
 #: src/gtk/help-overlay.ui:54
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr ""
+msgstr "انسخ"
 
 #: src/gtk/help-overlay.ui:60
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "ألصق"
 
 #: src/gtk/help-overlay.ui:66
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "كبّر"
 
 #: src/gtk/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "صغّر"
 
 #: src/gtk/help-overlay.ui:80
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "الإبحار"
 
 #: src/gtk/help-overlay.ui:83
 msgctxt "shortcut window"
