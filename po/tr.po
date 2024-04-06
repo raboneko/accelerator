@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2023-05-27 07:08+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-04-06 07:27+0000\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.fyralabs.com/projects/tauOS/"
 "accelerator/tr/>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.2\n"
 "X-Poedit-KeywordsList: _;G_;C_;NC_\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: src\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: data/com.fyralabs.Accelerator.desktop.in:3
 msgid "Accelerator"
-msgstr ""
+msgstr "Hızlandırıcı"
 
 #: data/com.fyralabs.Accelerator.desktop.in:9 src/gtk/preferences-window.ui:214
 #: src/gtk/preferences-window.ui:278
@@ -63,7 +63,7 @@ msgstr "Pencerenin uçbirim temasının renklerini miras alma durumu"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:36
 msgid "Terminal window background opacity"
-msgstr ""
+msgstr "Uçbirim penceresi arka plan matlığı"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:40
 msgid "Whether or not tabs should expand to fill tab bar"
@@ -101,16 +101,14 @@ msgid "If enabled, terminals will scroll by pixels instead of rows"
 msgstr "Etkinleştirilirse, uçbirimler satır yerine piksel olarak kaydırılır"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:72
-#, fuzzy
 msgid "If enabled, terminals will render sixel escape sequences"
-msgstr "Etkinleştirilirse, uçbirimler satır yerine piksel olarak kaydırılır"
+msgstr "Etkinleştirilirse, uçbirimler sixel kaçış dizileri oluşturur"
 
 #. 0 = Fixed size, 1 = Unlimited, 2 = Disabled
 #: data/com.fyralabs.Accelerator.gschema.xml:77
 #: src/gtk/preferences-window.ui:373
-#, fuzzy
 msgid "Scrollback mode"
-msgstr "Geri Kaydırılacak Satırlar"
+msgstr "Geri kaydırma kipi"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:81
 msgid "Number of lines stored in scrollback"
@@ -162,9 +160,8 @@ msgid "Cursor shape"
 msgstr "İmleç biçimi"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:126
-#, fuzzy
 msgid "Whether or not the cursor should blink"
-msgstr "Kaydırma çubuklarının gösterilme durumu"
+msgstr "Kaydırma çubuklarının yanıp sönme durumu"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:130
 msgid "If enabled, ctrl+c and ctrl+v will work for copy/paste"
@@ -316,58 +313,49 @@ msgid "Focus previous tab"
 msgstr "Önceki sekmeye odaklan"
 
 #: src/gtk/help-overlay.ui:95
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 1"
-msgstr "Sekmeye Geç"
+msgstr "1. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:101
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 2"
-msgstr "Sekmeye Geç"
+msgstr "2. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:107
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 3"
-msgstr "Sekmeye Geç"
+msgstr "3. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:113
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 4"
-msgstr "Sekmeye Geç"
+msgstr "4. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 5"
-msgstr "Sekmeye Geç"
+msgstr "5. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:125
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 6"
-msgstr "Sekmeye Geç"
+msgstr "6. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:131
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 7"
-msgstr "Sekmeye Geç"
+msgstr "7. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:137
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 8"
-msgstr "Sekmeye Geç"
+msgstr "8. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:143
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Switch to Tab 9"
-msgstr "Sekmeye Geç"
+msgstr "9. Sekmeye Geç"
 
 #: src/gtk/help-overlay.ui:149
 msgctxt "shortcut window"
@@ -385,34 +373,34 @@ msgid "Show Shortcuts"
 msgstr "Kısayolları Göster"
 
 #: src/gtk/shortcut-dialog.ui:6
-#, fuzzy
 msgid "Edit Shortcut"
-msgstr "Kısayolları Göster"
+msgstr "Kısayolu Düzenle"
 
 #: src/gtk/shortcut-dialog.ui:21
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: src/gtk/shortcut-dialog.ui:28
 msgid "Apply"
-msgstr ""
+msgstr "Uygula"
 
 #: src/gtk/shortcut-dialog.ui:68
 msgid "This shortcut is already in use"
-msgstr ""
+msgstr "Bu kısayol zaten kullanılıyor"
 
 #: src/gtk/shortcut-dialog.ui:81
 msgid "Press Escape to cancel or Backspace to disable shortcut"
 msgstr ""
+"İptal etmek için Escape tuşuna ya da kısayolu devre dışı bırakmak için "
+"Backspace tuşuna basın"
 
 #: src/gtk/shortcut-editor.ui:6
 msgid "Keyboard"
-msgstr ""
+msgstr "Klavye"
 
 #: src/gtk/shortcut-editor.ui:10
-#, fuzzy
 msgid "Shortcuts"
-msgstr "Kısayolları Göster"
+msgstr "Kısayollar"
 
 #: src/gtk/preferences-window.ui:11
 msgid "General"
@@ -584,9 +572,8 @@ msgid "Use ctrl+c/ctrl+v for copy/paste."
 msgstr "Kopyalama/Yapıştırma için ctrl+c/ctrl+v kullan."
 
 #: src/gtk/preferences-window.ui:281
-#, fuzzy
 msgid "Cursor Shape"
-msgstr "İmleç biçimi"
+msgstr "İmleç Biçimi"
 
 #: src/gtk/preferences-window.ui:285
 msgid "Block"
@@ -602,20 +589,19 @@ msgstr "Alt Çizgi"
 
 #: src/gtk/preferences-window.ui:295
 msgid "Cursor Blinking"
-msgstr ""
+msgstr "İmleç Yanıp Sönmesi"
 
 #: src/gtk/preferences-window.ui:296
-#, fuzzy
 msgid "Whether or not the cursor should blink."
-msgstr "Kaydırma çubuklarının gösterilme durumu"
+msgstr "İmlecin yanıp sönme durumu."
 
 #: src/gtk/preferences-window.ui:301
 msgid "On"
-msgstr ""
+msgstr "Açık"
 
 #: src/gtk/preferences-window.ui:302
 msgid "Off"
-msgstr ""
+msgstr "Kapalı"
 
 #: src/gtk/preferences-window.ui:310
 msgid "Padding"
@@ -623,11 +609,11 @@ msgstr "Doldurma"
 
 #: src/gtk/preferences-window.ui:324
 msgid "Opacity"
-msgstr ""
+msgstr "Matlık"
 
 #: src/gtk/preferences-window.ui:325
 msgid "Terminal background opacity."
-msgstr ""
+msgstr "Uçbirim arka plan matlığı."
 
 #: src/gtk/preferences-window.ui:341
 msgid "Scrolling"
@@ -647,15 +633,15 @@ msgstr "Yer Paylaşımlı Kaydırmayı Kullan"
 
 #: src/gtk/preferences-window.ui:377
 msgid "Fixed Size"
-msgstr ""
+msgstr "Sabit Boyut"
 
 #: src/gtk/preferences-window.ui:378
 msgid "Unlimited"
-msgstr ""
+msgstr "Sınırsız"
 
 #: src/gtk/preferences-window.ui:379 src/widgets/ShortcutEditor.vala:131
 msgid "Disabled"
-msgstr ""
+msgstr "Devre Dışı"
 
 #: src/gtk/preferences-window.ui:388
 msgid "Scrollback Lines"
@@ -735,11 +721,11 @@ msgstr ""
 
 #: src/gtk/preferences-window.ui:548
 msgid "Sixel Support"
-msgstr ""
+msgstr "Sixel Desteği"
 
 #: src/gtk/preferences-window.ui:549
 msgid "Render sixel escape sequences."
-msgstr ""
+msgstr "Sixel kaçış dizileri oluştur."
 
 #: src/gtk/preferences-window.ui:561
 msgid "Danger Zone"
@@ -771,7 +757,7 @@ msgid ""
 "progress has been made on this port, copying has yet to be implemented. This "
 "means there's currently no way to copy text in %s."
 msgstr ""
-"%s, terminal widget'ı olarak erken bir Gtk 4 VTE uyarlaması kullanır. Bu "
+"%s, uçbirim parçatığı olarak erken bir Gtk 4 VTE uyarlaması kullanır. Bu "
 "uyarlamada bir hayli ilerleme kaydedilmiş olsa da, kopyalama henüz mümkün "
 "değil. Bunun anlamı %s içindeki metni kopyalamanın henüz bir yolu yok "
 "anlamına gelmektedir."
@@ -788,9 +774,8 @@ msgstr "Tercihler"
 
 #: src/widgets/HeaderBar.vala:32 src/widgets/ShortcutEditor.vala:169
 #: src/widgets/TerminalTab.vala:132
-#, fuzzy
 msgid "Keyboard Shortcuts"
-msgstr "Kısayolları Göster"
+msgstr "Klavye Kısayolları"
 
 #: src/widgets/HeaderBar.vala:33 src/widgets/TerminalTab.vala:133
 msgid "About"
@@ -802,31 +787,28 @@ msgstr "Menü"
 
 #: src/widgets/ShortcutDialog.vala:46
 msgid "Enter new shortcut"
-msgstr ""
+msgstr "Yeni kısayol gir"
 
 #: src/widgets/ShortcutDialog.vala:47
 #, c-format
 msgid "Enter new shortcut for \"%s\""
-msgstr ""
+msgstr "\"%s\" için yeni kısayol gir"
 
 #: src/widgets/ShortcutEditor.vala:159
-#, fuzzy
 msgid "Focus Next Tab"
-msgstr "Sonraki sekmeye odaklan"
+msgstr "Sonraki Sekmeye Odaklan"
 
 #: src/widgets/ShortcutEditor.vala:160
-#, fuzzy
 msgid "Focus Previous Tab"
-msgstr "Önceki sekmeye odaklan"
+msgstr "Önceki Sekmeye Odaklan"
 
 #: src/widgets/ShortcutEditor.vala:161 src/widgets/TerminalTab.vala:122
 msgid "New Window"
 msgstr "Yeni Pencere"
 
 #: src/widgets/ShortcutEditor.vala:162
-#, fuzzy
 msgid "Toggle Header Bar"
-msgstr "Başlık Çubuğunu Göster"
+msgstr "Başlık Çubuğunu Aç/Kapat"
 
 #: src/widgets/ShortcutEditor.vala:163 src/widgets/TerminalTab.vala:121
 msgid "New Tab"
@@ -841,42 +823,37 @@ msgid "Paste"
 msgstr "Yapıştır"
 
 #: src/widgets/ShortcutEditor.vala:167
-#, fuzzy
 msgid "Search"
-msgstr "Arama"
+msgstr "Ara"
 
 #: src/widgets/ShortcutEditor.vala:170
-#, fuzzy
 msgid "Zoom In"
 msgstr "Yakınlaştır"
 
 #: src/widgets/ShortcutEditor.vala:171
-#, fuzzy
 msgid "Zoom Out"
 msgstr "Uzaklaştır"
 
 #: src/widgets/ShortcutEditor.vala:172
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Yakınlaştırmayı Sıfırla"
 
 #: src/widgets/ShortcutEditor.vala:173
-#, fuzzy
 msgid "Close Tab"
-msgstr "Sekmeyi kapat"
+msgstr "Sekmeyi Kapat"
 
 #: src/widgets/ShortcutEditor.vala:175 src/widgets/ShortcutEditor.vala:176
 #: src/widgets/ShortcutEditor.vala:177 src/widgets/ShortcutEditor.vala:178
 #: src/widgets/ShortcutEditor.vala:179 src/widgets/ShortcutEditor.vala:180
 #: src/widgets/ShortcutEditor.vala:181 src/widgets/ShortcutEditor.vala:182
 #: src/widgets/ShortcutEditor.vala:183
-#, fuzzy, c-format
+#, c-format
 msgid "Switch to Tab %u"
-msgstr "Sekmeye Geç"
+msgstr "%u. Sekmeye Geç"
 
 #: src/widgets/ShortcutEditor.vala:184
-#, fuzzy
 msgid "Switch to Last Tab"
-msgstr "Son sekmeye geç"
+msgstr "Son Sekmeye Geç"
 
 #: src/widgets/Window.vala:156
 msgid "Show headerbar"
@@ -884,7 +861,7 @@ msgstr "Başlık çubuğunu göster"
 
 #: src/widgets/Window.vala:211
 msgid "No tabs open"
-msgstr ""
+msgstr "Açık sekme yok"
 
 #: src/widgets/PreferencesWindow.vala:504
 msgid "Terminal Font"
