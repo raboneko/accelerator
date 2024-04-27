@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2023-10-21 11:26+0000\n"
-"Last-Translator: Amy/Atius <www.dappertransformer@proton.me>\n"
+"PO-Revision-Date: 2024-04-27 23:33+0000\n"
+"Last-Translator: Cappy <cappy@cappuchino.xyz>\n"
 "Language-Team: Thai <https://weblate.fyralabs.com/projects/tauOS/accelerator/"
 "th/>\n"
 "Language: th\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #: data/com.fyralabs.Accelerator.desktop.in:3
 msgid "Accelerator"
@@ -118,10 +118,12 @@ msgid ""
 "Hoverable area (in pixels) at the top of the window to trigger floating "
 "controls"
 msgstr ""
+"พื้นที่ที่สามารถวางเคอร์เซอร์ลอยได้ (เป็นพิกเซล) "
+"ที่ด้านบนของหน้าต่างเพื่อทริกเกอร์การควบคุมแบบลอย"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:93
 msgid "Delay time before showing floating controls"
-msgstr ""
+msgstr "หน่วงเวลาก่อนที่จะแสดงส่วนควบคุมแบบลอย"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:97
 msgid "The light color scheme for the terminal"
@@ -138,7 +140,7 @@ msgstr "รูปแบบสี"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:110
 msgid "Amount of padding around terminal widgets (top, right, bottom, left)"
-msgstr ""
+msgstr "จำนวนช่องว่างภายในวิดเจ็ตเทอร์มินัล (บน, ขวา, ล่าง, ซ้าย)"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:114
 msgid "Terminal cell width"
@@ -164,7 +166,7 @@ msgstr "ถ้าเปิดใช้งาน การกด ctrl+c และ
 msgid ""
 "If enabled, the tab bar will be replaced with a title label when there's a "
 "single open tab"
-msgstr ""
+msgstr "หากเปิดใช้งาน แถบแท็บจะถูกแทนที่ด้วยป้ายชื่อเมื่อเปิดอยู่เพียงแท็บเดียว"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:138
 msgid "If enabled, a single open tab will blend with the headerbar color"
@@ -288,9 +290,10 @@ msgid "Zoom out"
 msgstr "ซูมออก"
 
 #: src/gtk/help-overlay.ui:80
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "การควบคุม"
 
 #: src/gtk/help-overlay.ui:83
 msgctxt "shortcut window"
@@ -372,7 +375,7 @@ msgstr "ยกเลิก"
 
 #: src/gtk/shortcut-dialog.ui:28
 msgid "Apply"
-msgstr ""
+msgstr "ใช้ค่า"
 
 #: src/gtk/shortcut-dialog.ui:68
 msgid "This shortcut is already in use"
@@ -408,7 +411,7 @@ msgstr "แสดงขอบหน้าต่าง"
 
 #: src/gtk/preferences-window.ui:31
 msgid "Enable to draw a border around the window and the active tab."
-msgstr ""
+msgstr "เปิดใช้งานเพื่อวาดเส้นขอบรอบหน้าต่างและแท็บที่ใช้งานอยู่"
 
 #: src/gtk/preferences-window.ui:42
 msgid "Theme Integration"
@@ -782,7 +785,7 @@ msgstr ""
 
 #: src/widgets/ShortcutEditor.vala:163 src/widgets/TerminalTab.vala:121
 msgid "New Tab"
-msgstr "แท็บใหม่"
+msgstr "เปิดแท็บใหม่"
 
 #: src/widgets/ShortcutEditor.vala:165 src/widgets/TerminalTab.vala:124
 msgid "Copy"
