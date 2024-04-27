@@ -1,0 +1,855 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the accelerator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: accelerator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-16 10:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.fyralabs.Accelerator.desktop.in:3
+msgid "Accelerator"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.desktop.in:9 src/gtk/preferences-window.ui:214
+#: src/gtk/preferences-window.ui:278
+msgid "Terminal"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.desktop.in:10
+msgid "Terminal;terminal;shell;prompt;command;commandline;cmd;box;"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:6
+msgid "Window width"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:10
+msgid "Window height"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:14
+msgid "Whether or not to display borders around the window and tabs"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:18
+msgid "Whether or not to remember window size"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:28
+msgid "Font family and size"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:32
+msgid "Whether the window should inherit terminal theme's colors"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:36
+msgid "Terminal window background opacity"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:40
+msgid "Whether or not tabs should expand to fill tab bar"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:44
+msgid "Whether the headerbar should be shown or not"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:48
+msgid "Whether or not to display a menu button in the headerbar"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:52
+msgid ""
+"Whether or not to draw a 1px line under the header bar when there's a single "
+"tab open"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:56
+msgid "Whether or not to reserve an area for dragging the header bar"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:60
+msgid "Whether or not to show scrollbars"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:64
+msgid "Whether overlay scrolling should be enabled"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:68
+msgid "If enabled, terminals will scroll by pixels instead of rows"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:72
+msgid "If enabled, terminals will render sixel escape sequences"
+msgstr ""
+
+#. 0 = Fixed size, 1 = Unlimited, 2 = Disabled
+#: data/com.fyralabs.Accelerator.gschema.xml:77
+#: src/gtk/preferences-window.ui:373
+msgid "Scrollback mode"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:81
+msgid "Number of lines stored in scrollback"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:85
+msgid "If enabled, floating controls will be shown in headerless mode"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:89
+msgid ""
+"Hoverable area (in pixels) at the top of the window to trigger floating "
+"controls"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:93
+msgid "Delay time before showing floating controls"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:97
+msgid "The light color scheme for the terminal"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:101
+msgid "The dark color scheme for the terminal"
+msgstr ""
+
+#. 0 = Follow system, 1 = Light Style, 2 = Dark Style
+#: data/com.fyralabs.Accelerator.gschema.xml:106
+msgid "Style preference"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:110
+msgid "Amount of padding around terminal widgets (top, right, bottom, left)"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:114
+msgid "Terminal cell width"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:118
+msgid "Terminal cell height"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:122
+msgid "Cursor shape"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:126
+msgid "Whether or not the cursor should blink"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:130
+msgid "If enabled, ctrl+c and ctrl+v will work for copy/paste"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:134
+msgid ""
+"If enabled, the tab bar will be replaced with a title label when there's a "
+"single open tab"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:138
+msgid "If enabled, a single open tab will blend with the headerbar color"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:142
+msgid "Whether to spawn shell in login mode"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:146
+msgid "Whether to use a custom command instead of the user's shell"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:150
+msgid "Custom command to use instead of the user's shell"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:157
+msgid ""
+"Whether clicking next on the last search result should return to the first"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:161
+msgid "Whether search should be case sensitive"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:165
+msgid "Whether search should only match entire words"
+msgstr ""
+
+#: data/com.fyralabs.Accelerator.gschema.xml:169
+msgid "Whether search should be performed using regular expressions"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:20
+msgid "Find"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:42
+msgid "Previous result"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:48
+msgid "Next result"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:91
+msgid "Search wraps around"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:96
+msgid "Match is case sensitive"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:101
+msgid "Match entire words only"
+msgstr ""
+
+#: src/gtk/search-toolbar.ui:106
+msgid "Match using regular expression"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:10
+msgctxt "shortcut window"
+msgid "Window"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:13
+msgctxt "shortcut window"
+msgid "New window"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:19
+msgctxt "shortcut window"
+msgid "New tab"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:25
+msgctxt "shortcut window"
+msgid "Close tab"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:31
+msgctxt "shortcut window"
+msgid "Switch headbar mode"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:45
+msgctxt "shortcut window"
+msgid "Terminal"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:48
+msgctxt "shortcut window"
+msgid "Search"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:54
+msgctxt "shortcut window"
+msgid "Copy"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:60
+msgctxt "shortcut window"
+msgid "Paste"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:66
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:72
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:80
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:83
+msgctxt "shortcut window"
+msgid "Focus next tab"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:89
+msgctxt "shortcut window"
+msgid "Focus previous tab"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:95
+msgctxt "shortcut window"
+msgid "Switch to Tab 1"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:101
+msgctxt "shortcut window"
+msgid "Switch to Tab 2"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:107
+msgctxt "shortcut window"
+msgid "Switch to Tab 3"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Switch to Tab 4"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:119
+msgctxt "shortcut window"
+msgid "Switch to Tab 5"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:125
+msgctxt "shortcut window"
+msgid "Switch to Tab 6"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:131
+msgctxt "shortcut window"
+msgid "Switch to Tab 7"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:137
+msgctxt "shortcut window"
+msgid "Switch to Tab 8"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:143
+msgctxt "shortcut window"
+msgid "Switch to Tab 9"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:149
+msgctxt "shortcut window"
+msgid "Switch to last Tab"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:157
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:160
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: src/gtk/shortcut-dialog.ui:6
+msgid "Edit Shortcut"
+msgstr ""
+
+#: src/gtk/shortcut-dialog.ui:21
+msgid "Cancel"
+msgstr ""
+
+#: src/gtk/shortcut-dialog.ui:28
+msgid "Apply"
+msgstr ""
+
+#: src/gtk/shortcut-dialog.ui:68
+msgid "This shortcut is already in use"
+msgstr ""
+
+#: src/gtk/shortcut-dialog.ui:81
+msgid "Press Escape to cancel or Backspace to disable shortcut"
+msgstr ""
+
+#: src/gtk/shortcut-editor.ui:6
+msgid "Keyboard"
+msgstr ""
+
+#: src/gtk/shortcut-editor.ui:10
+msgid "Shortcuts"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:11
+msgid "General"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:15
+msgid "Window"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:19
+msgid "Remember Window Size"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:30
+msgid "Show Borders"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:31
+msgid "Enable to draw a border around the window and the active tab."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:42
+msgid "Theme Integration"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:43
+msgid "Style window with terminal theme colors."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:53
+msgid "Style Preference"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:57 src/gtk/preferences-window.ui:300
+msgid "Follow System"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:58
+msgid "Light Style"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:59
+msgid "Dark Style"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:69
+msgid "Tabs"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:73
+msgid "Expand Tabs"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:83
+msgid "Single Tab Mode"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:88
+msgid "Hide Single Tab"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:89
+msgid ""
+"Replace tab bar with a title label when a single tab is open. Easier to drag "
+"the window."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:101
+msgid "Stealth Single Tab"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:102
+msgid "Blend single tab with header bar."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:117
+msgid "Header Bar"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:121
+msgid "Show Header Bar"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:132
+msgid "Show Menu Button"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:143
+msgid "Drag Area"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:144
+msgid "Enable to reserve some space on the left side to drag the window."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:156
+msgid "Draw Line Under Header Bar"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:157
+msgid ""
+"Enable to draw a line under the header bar when a single tab is open. "
+"Requires \"Show Borders\"."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:167
+msgid "Floating Controls"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:170
+msgid "Show Floating Controls"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:171
+msgid "Show floating controls when header bar is hidden."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:183
+msgid "Floating Controls Hover Area"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:184
+msgid ""
+"Hoverable area (in pixels) at the top of the window to trigger floating "
+"controls."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:196
+msgid "Delay Before Show Floating Controls"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:197
+msgid "Delay time (ms) before show floating controls."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:219
+msgid "Text"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:223
+msgid "Font"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:235
+msgid "Cell Spacing"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:238
+msgid "Width"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:250
+msgid "Height"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:265
+msgid "Easy Copy &amp; Paste"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:266
+msgid "Use ctrl+c/ctrl+v for copy/paste."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:281
+msgid "Cursor Shape"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:285
+msgid "Block"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:286
+msgid "IBeam"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:287
+msgid "Underline"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:295
+msgid "Cursor Blinking"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:296
+msgid "Whether or not the cursor should blink."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:301
+msgid "On"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:302
+msgid "Off"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:310
+msgid "Padding"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:324
+msgid "Opacity"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:325
+msgid "Terminal background opacity."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:341
+msgid "Scrolling"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:344
+msgid "Scrollbars"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:347
+msgid "Show Scrollbars"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:358
+msgid "Use Overlay Scrolling"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:377
+msgid "Fixed Size"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:378
+msgid "Unlimited"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:379 src/widgets/ShortcutEditor.vala:131
+msgid "Disabled"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:388
+msgid "Scrollback Lines"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:405
+msgid "Command"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:409
+msgid "Run Command as Login Shell"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:420
+msgid "Use Custom Command"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:430
+msgid "Custom Command"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:437
+msgid "Theme"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:448
+msgid "Open folder"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:456
+msgid "Get more themes online"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:470
+msgid "Set your preferred theme for light and dark styles."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:485
+msgid "Light Theme"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:491
+msgid "Dark Theme"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:499
+msgid "Only display themes for the current style"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:507
+msgid ""
+"To ensure readability, \"Theme Integration\" will be disabled if you select "
+"a light color scheme while using the dark app style or a dark color scheme "
+"while using the light app style."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:539
+msgid "Advanced"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:543
+msgid "Experimental"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:544
+msgid ""
+"Features in this section are known to be wonky. Please feel free to test and "
+"<a href=\"https://gitlab.gnome.org/raggesilver/blackbox/-/issues\">report "
+"bugs</a>."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:548
+msgid "Sixel Support"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:549
+msgid "Render sixel escape sequences."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:561
+msgid "Danger Zone"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:564
+msgid "Reset Preferences"
+msgstr ""
+
+#: src/gtk/preferences-window.ui:565
+msgid ""
+"This will revert all settings back to default. Your extra themes will not be "
+"removed."
+msgstr ""
+
+#: src/gtk/preferences-window.ui:570
+msgid "Reset preferences"
+msgstr ""
+
+#: src/utils/Constants.vala:34
+msgid "You can still access the menu by right-clicking any terminal."
+msgstr ""
+
+#: src/utils/Constants.vala:36
+#, c-format
+msgid ""
+"%s uses an early Gtk 4 port of VTE as a terminal widget. While a lot of "
+"progress has been made on this port, copying has yet to be implemented. This "
+"means there's currently no way to copy text in %s."
+msgstr ""
+
+#: src/widgets/HeaderBar.vala:30 src/widgets/ShortcutEditor.vala:168
+#: src/widgets/Window.vala:153
+msgid "Fullscreen"
+msgstr ""
+
+#: src/widgets/HeaderBar.vala:31 src/widgets/ShortcutEditor.vala:164
+#: src/widgets/TerminalTab.vala:129
+msgid "Preferences"
+msgstr ""
+
+#: src/widgets/HeaderBar.vala:32 src/widgets/ShortcutEditor.vala:169
+#: src/widgets/TerminalTab.vala:132
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/widgets/HeaderBar.vala:33 src/widgets/TerminalTab.vala:133
+msgid "About"
+msgstr ""
+
+#: src/widgets/HeaderBar.vala:57 src/widgets/Window.vala:173
+msgid "Menu"
+msgstr ""
+
+#: src/widgets/ShortcutDialog.vala:46
+msgid "Enter new shortcut"
+msgstr ""
+
+#: src/widgets/ShortcutDialog.vala:47
+#, c-format
+msgid "Enter new shortcut for \"%s\""
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:159
+msgid "Focus Next Tab"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:160
+msgid "Focus Previous Tab"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:161 src/widgets/TerminalTab.vala:122
+msgid "New Window"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:162
+msgid "Toggle Header Bar"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:163 src/widgets/TerminalTab.vala:121
+msgid "New Tab"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:165 src/widgets/TerminalTab.vala:124
+msgid "Copy"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:166 src/widgets/TerminalTab.vala:125
+msgid "Paste"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:167
+msgid "Search"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:170
+msgid "Zoom In"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:171
+msgid "Zoom Out"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:172
+msgid "Reset Zoom"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:173
+msgid "Close Tab"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:175 src/widgets/ShortcutEditor.vala:176
+#: src/widgets/ShortcutEditor.vala:177 src/widgets/ShortcutEditor.vala:178
+#: src/widgets/ShortcutEditor.vala:179 src/widgets/ShortcutEditor.vala:180
+#: src/widgets/ShortcutEditor.vala:181 src/widgets/ShortcutEditor.vala:182
+#: src/widgets/ShortcutEditor.vala:183
+#, c-format
+msgid "Switch to Tab %u"
+msgstr ""
+
+#: src/widgets/ShortcutEditor.vala:184
+msgid "Switch to Last Tab"
+msgstr ""
+
+#: src/widgets/Window.vala:156
+msgid "Show headerbar"
+msgstr ""
+
+#: src/widgets/Window.vala:211
+msgid "No tabs open"
+msgstr ""
+
+#: src/widgets/PreferencesWindow.vala:504
+msgid "Terminal Font"
+msgstr ""
+
+#: src/CommandLine.vala:47
+msgid "Show app version"
+msgstr ""
+
+#: src/CommandLine.vala:56
+msgid "Set current working directory"
+msgstr ""
+
+#: src/CommandLine.vala:65
+msgid "Execute command in a terminal"
+msgstr ""
+
+#: src/CommandLine.vala:74
+msgid "Show help"
+msgstr ""
+
+#: src/CommandLine.vala:121
+#, c-format
+msgid "Run %s --help to get help\n"
+msgstr ""
