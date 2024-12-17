@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: accelerator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 10:37+0700\n"
-"PO-Revision-Date: 2024-03-24 23:20+0000\n"
-"Last-Translator: \"A. Bento\" <kyweehz@pm.me>\n"
+"PO-Revision-Date: 2024-12-17 22:54+0000\n"
+"Last-Translator: John Peter Sa <johnppetersa@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.fyralabs.com/projects/"
 "tauOS/accelerator/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.4.2\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: data/com.fyralabs.Accelerator.desktop.in:3
 msgid "Accelerator"
-msgstr "Accelerator"
+msgstr "Acelerador"
 
 #: data/com.fyralabs.Accelerator.desktop.in:9 src/gtk/preferences-window.ui:214
 #: src/gtk/preferences-window.ui:278
@@ -31,9 +31,7 @@ msgstr "Terminal"
 
 #: data/com.fyralabs.Accelerator.desktop.in:10
 msgid "Terminal;terminal;shell;prompt;command;commandline;cmd;box;"
-msgstr ""
-"Terminal;terminal;shell;prompt;command;commandline;cmd;box;comando;linha;"
-"console;"
+msgstr "Terminal;terminal;shell;prompt;command;commandline;cmd;box;"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:6
 msgid "Window width"
@@ -146,7 +144,7 @@ msgstr "Preferência de estilo"
 #: data/com.fyralabs.Accelerator.gschema.xml:110
 msgid "Amount of padding around terminal widgets (top, right, bottom, left)"
 msgstr ""
-"Quantidade de preenchimento em torno dos widgets do terminal (superior, "
+"Quantidade de preenchimento ao redor dos widgets do terminal (superior, "
 "direito, inferior, esquerdo)"
 
 #: data/com.fyralabs.Accelerator.gschema.xml:114
